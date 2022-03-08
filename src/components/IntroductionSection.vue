@@ -2,10 +2,10 @@
 <template>
   <div class="introduction-section">
     <div class="center">
-      <h1 class="title" v-bind:style="{ color: 'white' }">
+      <div class="title" v-bind:style="{ color: 'white' }">
         I'm ready to design, develop and deploy your solutions.
-      </h1>
-      <p>
+      </div>
+      <p class="description">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
         quibusdam qui dolorem aliquid, consequatur velit, cum repellendus,
         repudiandae harum neque veritatis quisquam temporibus ut doloremque
@@ -23,7 +23,6 @@
 .introduction-section {
   width: 100%;
   background-color: #1d1d1d;
-  height: 100%;
   padding-top: 15%;
 }
 .center {
@@ -31,15 +30,15 @@
   width: 60%;
   padding: 10px;
 }
-h1 {
+div .title {
   padding-bottom: 1rem;
   color: "white";
-  font-size: 32px !important;
+  font-size: 38px !important;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
 }
 p {
   color: white;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
 .link {

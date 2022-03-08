@@ -2,7 +2,7 @@
 <template>
   <div>
     <div class="title">{{ itemTitle }}</div>
-    <div>{{ itemDescription }}</div>
+    <div class="description">{{ itemDescription }}</div>
     <div class="live" v-if="isLive">
       See it Live <v-icon color="#df0606">mdi-chevron-right </v-icon>
     </div>
@@ -36,5 +36,8 @@ div .live {
   color: #df0606;
   cursor: pointer !important;
   margin-top: 1rem;
+}
+div .description {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
 }
 </style>

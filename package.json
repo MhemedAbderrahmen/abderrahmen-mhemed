@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "test": "jest",
     "deploy": "sh deploy.sh",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -15,16 +16,19 @@
     "express": "^4.17.3",
     "server-static": "^2.0.5",
     "vue": "^2.6.14",
+    "vue-mobile-detection": "^2.0.1",
     "vuetify": "^2.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
+    "@testing-library/vue": "^5.8.2",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "jest": "^27.5.1",
     "sass": "~1.32.0",
     "sass-loader": "^10.0.0",
     "vue-cli-plugin-vuetify": "~2.4.7",
