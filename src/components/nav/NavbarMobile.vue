@@ -1,7 +1,6 @@
 <template>
   <v-app-bar app color="primary" dark elevation="0">
     <div v-bind:style="{ width: '100%' }">
-      
       <div
         v-bind:style="{
           textTransform: 'uppercase',
@@ -11,15 +10,26 @@
         }"
       >
         <v-btn text color="secondary" elevation="0">
-          <v-icon v-bind:style="{ fontSize: '20px' }"> mdi-home </v-icon>
+          <div>
+            <v-icon v-bind:style="{ fontSize: '20px' }"> mdi-home </v-icon>
+            <div v-bind:style="{ fontSize: '10px' }">Home</div>
+          </div>
         </v-btn>
         <v-btn text color="secondary" elevation="0">
-          <v-icon v-bind:style="{ fontSize: '20px' }"
-            >mdi-information-outline</v-icon
-          >
+          <div>
+            <v-icon v-bind:style="{ fontSize: '20px' }"
+              >mdi-information-outline</v-icon
+            >
+            <div v-bind:style="{ fontSize: '10px' }" v-on:click="goto()">
+              Experience
+            </div>
+          </div>
         </v-btn>
         <v-btn text color="secondary" elevation="0">
-          <v-icon v-bind:style="{ fontSize: '20px' }">mdi-account-box</v-icon>
+          <div>
+            <v-icon v-bind:style="{ fontSize: '20px' }">mdi-account-box</v-icon>
+            <div v-bind:style="{ fontSize: '10px' }">Contact</div>
+          </div>
         </v-btn>
       </div>
     </div>
@@ -27,14 +37,12 @@
 </template>
 <script>
 export default {
-  data() {
-    return {
-      drawer: null,
-      items: [
-        { title: "Home", icon: "mdi-view-dashboard" },
-        { title: "About", icon: "mdi-forum" },
-      ],
-    };
+  methods: {
+    goto() {
+      document.getElementById("work").scrollIntoView({
+        behavior: "smooth",
+      });
+    },
   },
 };
 </script>
