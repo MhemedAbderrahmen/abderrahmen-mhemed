@@ -25,7 +25,7 @@ export default {
     IntroductionSection,
     WorkSection,
     NavbarWeb,
-    NavbarMobile
+    NavbarMobile,
   },
   methods: {
     isMobile() {
