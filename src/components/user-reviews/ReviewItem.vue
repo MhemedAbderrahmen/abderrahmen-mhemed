@@ -9,10 +9,11 @@
       doloribus itaque!
     </div>
     <div class="id-display">
-      <v-avatar size="88">
+      <v-avatar size="108">
         <img src="https://cdn.vuetifyjs.com/images/john.jpg" alt="John" />
       </v-avatar>
-      <div>Houcem Maiza Founder and CEO of GALACTECH</div>
+      <div>Houcem Maiza</div>
+      <div>Founder and CEO of GALACTECH</div>
     </div>
   </div>
 </template>
@@ -43,5 +44,7 @@ div .id-display {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
+  font-size: 16px;
 }
 </style>
