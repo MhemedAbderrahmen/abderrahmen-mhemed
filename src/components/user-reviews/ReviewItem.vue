@@ -13,7 +13,9 @@
         <img src="https://cdn.vuetifyjs.com/images/john.jpg" alt="John" />
       </v-avatar>
       <div>Houcem Maiza</div>
-      <div>Founder and CEO of GALACTECH</div>
+      <div v-bind:style="{ fontSize: '12px', color: '#1D40FB' }">
+        Founder and CEO of GALACTECH
+      </div>
     </div>
   </div>
 </template>
@@ -21,7 +23,7 @@
 <style scoped>
 div .quote {
   margin-top: 1rem;
-  color: #4452FB;
+  color: #4452fb;
   font-size: 30px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;

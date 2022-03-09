@@ -87,8 +87,6 @@
 .introduction-section {
   width: 100%;
   background-color: black;
-  height: 100%;
-  padding-top: 15%;
 }
 .center {
   margin: auto;

@@ -1,12 +1,6 @@
 <template>
   <v-footer fixed padless v-bind:style="{ width: '100%' }">
-    <v-card
-      flat
-      tile
-      class="text-center"
-      width="100%"
-      color="primary"
-    >
+    <v-card flat tile class="text-center" width="100%" color="primary">
       <v-card-text>
         <v-btn v-for="icon in icons" :key="icon" class="mx-4" icon>
           <v-icon size="24px" color="secondary">
@@ -17,8 +11,9 @@
 
       <v-divider></v-divider>
 
-      <v-card-text  v-bind:style="{color:'white'}">
-        {{ new Date().getFullYear() }} — <strong v-bind:style="{color:'white'}">Porfolio</strong>
+      <v-card-text v-bind:style="{ color: 'white' }">
+        {{ new Date().getFullYear() }} —
+        <strong v-bind:style="{ color: 'white' }">Porfolio</strong>
       </v-card-text>
     </v-card>
   </v-footer>
@@ -47,5 +42,5 @@ export default {
       return attrs;
     },
   },
-};  
+};
 </script>

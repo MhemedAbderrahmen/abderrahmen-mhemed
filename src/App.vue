@@ -6,7 +6,7 @@
     <v-main>
       <IntroductionSection />
       <WorkSection />
-      <SkillsSection/>
+      <SkillsSection />
     </v-main>
     <FooterGeneral />
   </v-app>
@@ -28,7 +28,7 @@ export default {
     WorkSection,
     NavbarWeb,
     NavbarMobile,
-    SkillsSection
+    SkillsSection,
   },
   methods: {
     isMobile() {
