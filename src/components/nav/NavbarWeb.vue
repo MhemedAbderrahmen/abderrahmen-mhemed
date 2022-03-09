@@ -16,7 +16,9 @@
         <span class="mr-2">About</span>
       </v-btn>
       <v-btn text color="white" elevation="0">
-
+        <span class="mr-2">Capabilities</span>
+      </v-btn>
+      <v-btn text color="white" elevation="0">
         <span class="mr-2">Contact</span>
       </v-btn>
     </div>

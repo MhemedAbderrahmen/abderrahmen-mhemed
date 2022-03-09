@@ -18,7 +18,6 @@
   color: white;
   margin: auto;
   width: 80%;
-  padding: 10px;
 }
 </style>
 <script>
