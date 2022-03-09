@@ -3,13 +3,13 @@
     <v-card
       flat
       tile
-      class="red lighten-1 text-center"
+      class="text-center"
       width="100%"
-      color="secondary"
+      color="primary"
     >
       <v-card-text>
         <v-btn v-for="icon in icons" :key="icon" class="mx-4" icon>
-          <v-icon size="24px" color="primary">
+          <v-icon size="24px" color="secondary">
             {{ icon }}
           </v-icon>
         </v-btn>

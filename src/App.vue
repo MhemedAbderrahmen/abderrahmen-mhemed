@@ -6,6 +6,7 @@
     <v-main>
       <IntroductionSection />
       <WorkSection />
+      <SkillsSection/>
     </v-main>
     <FooterGeneral />
   </v-app>
@@ -17,6 +18,7 @@ import IntroductionSection from "./components/IntroductionSection";
 import WorkSection from "./components/WorkSection";
 import NavbarWeb from "./components/nav/NavbarWeb.vue";
 import NavbarMobile from "./components/nav/NavbarMobile.vue";
+import SkillsSection from "./components/skills/SkillsSection.vue";
 
 export default {
   name: "App",
@@ -26,6 +28,7 @@ export default {
     WorkSection,
     NavbarWeb,
     NavbarMobile,
+    SkillsSection
   },
   methods: {
     isMobile() {

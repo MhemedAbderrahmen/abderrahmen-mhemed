@@ -26,7 +26,7 @@ div {
   text-align: justify;
 }
 div .title {
-  color: #ff8164;
+  color: #4452FB;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
   text-align: justify;
   margin-bottom: 1rem;

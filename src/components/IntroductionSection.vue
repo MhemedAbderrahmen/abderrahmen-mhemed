@@ -22,8 +22,9 @@
 <style scoped>
 .introduction-section {
   width: 100%;
-  background-color: #1d1d1d;
+  background-color: black;
   padding-top: 15%;
+  padding-bottom: 15%;
 }
 .center {
   margin: auto;
@@ -42,7 +43,7 @@ p {
 }
 
 .link {
-  color: #ff8164 !important;
+  color: #4452FB !important;
   cursor: pointer !important;
 }
 </style>

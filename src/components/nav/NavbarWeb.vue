@@ -1,28 +1,22 @@
 <template>
   <v-app-bar app color="primary" dark elevation="0">
     <div class="navbar-tools">
-      <div v-bind:style="{ textTransform: 'uppercase', color: '#E2664C' }">
+      <div v-bind:style="{ textTransform: 'uppercase', color: '#1D40FB' }">
         Mhemed Abderrahmen
       </div>
 
       <v-spacer></v-spacer>
 
-      <v-btn color="secondary" elevation="0">
-        <v-icon v-bind:style="{ fontSize: '16px', padding: '0.2rem' }">
-          mdi-home
-        </v-icon>
+      <v-btn text color="secondary" elevation="0">
+
         <span class="mr-2" cl>Home</span>
       </v-btn>
-      <v-btn color="secondary" elevation="0">
-        <v-icon v-bind:style="{ fontSize: '16px', padding: '0.2rem' }"
-          >mdi-information-outline</v-icon
-        >
+      <v-btn text color="secondary" elevation="0">
+
         <span class="mr-2">About</span>
       </v-btn>
-      <v-btn color="secondary" elevation="0">
-        <v-icon v-bind:style="{ fontSize: '16px', padding: '0.2rem' }"
-          >mdi-account-box</v-icon
-        >
+      <v-btn text color="secondary" elevation="0">
+
         <span class="mr-2">Contact</span>
       </v-btn>
     </div>
@@ -38,8 +32,8 @@
   justify-content: center;
 }
 .v-btn {
-  margin-right: 1rem;
+  
   border-radius: 20px;
-  font-size: 12px;
+  font-size: 10px;
 }
 </style>

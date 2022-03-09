@@ -86,7 +86,7 @@
 <style scoped>
 .introduction-section {
   width: 100%;
-  background-color: #1d1d1d;
+  background-color: black;
   height: 100%;
   padding-top: 15%;
 }
@@ -107,7 +107,7 @@ p {
 }
 
 .link {
-  color: #ff8164 !important;
+  color: #4452FB !important;
 }
 v-row {
   padding-bottom: 5rem !important;
