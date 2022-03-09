@@ -11,7 +11,7 @@
         repudiandae harum neque veritatis quisquam temporibus ut doloremque
         fugit nam porro pariatur aut.
       </p>
-      <p class="link" v-on:click="goto()">
+      <p class="link" v-on:click="goto()" v-bind:style="{fontWeight:'bold'}">
         Checkout out my work!
         <v-icon color="secondary">mdi-chevron-down</v-icon>
       </p>
@@ -28,7 +28,7 @@
 }
 .center {
   margin: auto;
-  width: 60%;
+  width: 80%;
   padding: 10px;
 }
 div .title {

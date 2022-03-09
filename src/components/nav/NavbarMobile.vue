@@ -9,26 +9,26 @@
           width: '100%',
         }"
       >
-        <v-btn text color="secondary" elevation="0">
+        <v-btn text color="white" elevation="0">
           <div>
             <v-icon v-bind:style="{ fontSize: '20px' }"> mdi-home </v-icon>
-            <div v-bind:style="{ fontSize: '10px' }">Home</div>
+            <!-- <div v-bind:style="{ fontSize: '10px' }">Home</div> -->
           </div>
         </v-btn>
-        <v-btn text color="secondary" elevation="0">
+        <v-btn text color="white" elevation="0">
           <div>
             <v-icon v-bind:style="{ fontSize: '20px' }"
               >mdi-information-outline</v-icon
             >
-            <div v-bind:style="{ fontSize: '10px' }" v-on:click="goto()">
+            <!-- <div v-bind:style="{ fontSize: '10px' }" v-on:click="goto()">
               Experience
-            </div>
+            </div> -->
           </div>
         </v-btn>
-        <v-btn text color="secondary" elevation="0">
+        <v-btn text color="white" elevation="0">
           <div>
             <v-icon v-bind:style="{ fontSize: '20px' }">mdi-account-box</v-icon>
-            <div v-bind:style="{ fontSize: '10px' }">Contact</div>
+            <!-- <div v-bind:style="{ fontSize: '10px' }">Contact</div> -->
           </div>
         </v-btn>
       </div>

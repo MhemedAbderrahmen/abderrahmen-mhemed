@@ -17,8 +17,8 @@
 
       <v-divider></v-divider>
 
-      <v-card-text color="primary">
-        {{ new Date().getFullYear() }} — <strong>Porfolio</strong>
+      <v-card-text  v-bind:style="{color:'white'}">
+        {{ new Date().getFullYear() }} — <strong v-bind:style="{color:'white'}">Porfolio</strong>
       </v-card-text>
     </v-card>
   </v-footer>
