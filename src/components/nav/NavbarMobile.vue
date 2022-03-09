@@ -2,6 +2,7 @@
   <v-app-bar app color="primary" dark elevation="0">
     <div v-bind:style="{ width: '100%' }">
       <div
+      
         v-bind:style="{
           textTransform: 'uppercase',
           color: '#E2664C',
@@ -16,11 +17,11 @@
           </div>
         </v-btn>
         <v-btn text color="white" elevation="0">
-          <div>
+          <div v-on:click="goto()">
             <v-icon v-bind:style="{ fontSize: '20px' }"
               >mdi-information-outline</v-icon
             >
-            <!-- <div v-bind:style="{ fontSize: '10px' }" v-on:click="goto()">
+            <!-- <div v-bind:style="{ fontSize: '10px' }" >
               Experience
             </div> -->
           </div>
