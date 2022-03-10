@@ -7,26 +7,23 @@
     <v-row>
       <v-col>
         <ul>
-          <li>ReactJS</li>
-          <li>NodeJS</li>
-          <li>MongoDB</li>
-          <li>RabbitMQ</li>
+          <li>ReactNative</li>
+          <li>Firebase</li>
+          <li>Unity</li>
+          <li>C#</li>
         </ul>
       </v-col>
       <v-col>
         <ul>
-          <li>VueJS</li>
-          <li>HTML/CSS</li>
-          <li>TypeScript</li>
-          <li>DenoJS</li>
+          <li>Java</li>
+          <li>Kotlin</li>
+          <li>Dart</li>
+          <li>Flutter</li>
         </ul>
       </v-col>
       <v-col>
         <ul>
-          <li>GraphQL</li>
-          <li>Rest</li>
-          <li>Express</li>
-          <li>Laravel/PHP</li>
+          <li>Ionic</li>
         </ul>
       </v-col>
     </v-row>
