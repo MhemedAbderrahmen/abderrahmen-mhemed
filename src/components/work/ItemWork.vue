@@ -3,6 +3,12 @@
   <div>
     <div class="title">{{ itemTitle }}</div>
     <div class="description">{{ itemDescription }}</div>
+    <div>
+      <BadgeItem name="React"/>
+      <BadgeItem name="MongoDB"/>
+      <BadgeItem name="NodeJS"/>
+      <BadgeItem name="ExpressJS"/>
+    </div>
     <div class="live" v-if="isLive">
       See it Live <v-icon color="#df0606">mdi-chevron-right </v-icon>
     </div>
@@ -10,8 +16,10 @@
 </template>
 
 <script>
+import BadgeItem from "@/components/utils/BadgeItem";
 export default {
   name: "ItemWork",
+  components: {BadgeItem},
   props: {
     itemTitle: String,
     itemDescription: String,
