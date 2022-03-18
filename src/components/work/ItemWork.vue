@@ -9,10 +9,14 @@
       <BadgeItem name="NodeJS"/>
       <BadgeItem name="ExpressJS"/>
     </div>
-    <div class="live" v-if="isLive">
-      See it Live <v-icon color="#df0606">mdi-chevron-right </v-icon>
-    </div>
+    <a v-bind:href="liveLink"  target="_blank">
+      <div class="live" v-if="isLive" >
+        See it Live <v-icon color="#df0606">mdi-chevron-right </v-icon>
+      </div>
+    </a>
+
   </div>
+
 </template>
 
 <script>
@@ -24,6 +28,7 @@ export default {
     itemTitle: String,
     itemDescription: String,
     isLive: Boolean,
+    liveLink:String
   },
 };
 </script>
@@ -40,7 +45,7 @@ div .title {
   margin-bottom: 1rem;
 }
 
-div .live {
+ .live{
   color: #df0606;
   cursor: pointer !important;
   margin-top: 1rem;

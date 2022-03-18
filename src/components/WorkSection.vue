@@ -50,7 +50,7 @@
             itemDescription="
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quae accusantium soluta hic nulla molestias quos ad quasi ipsam, aperiam aut in excepturi, quibusdam minus ipsum similique neque sapiente accusamus!"
             isLive
-            liveLink="https://mygameplace.io"
+            liveLink="https://ohmygame.io"
           />
         </v-col>
       </v-row>
@@ -74,7 +74,7 @@
             itemDescription="
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quae accusantium soluta hic nulla molestias quos ad quasi ipsam, aperiam aut in excepturi, quibusdam minus ipsum similique neque sapiente accusamus!"
             isLive
-            liveLink="https://mygameplace.io"
+            liveLink="https://mygameplace.gg"
           />
         </v-col>
       </v-row>
