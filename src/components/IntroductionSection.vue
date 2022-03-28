@@ -6,14 +6,12 @@
         I'm ready to design, develop and deploy your solutions.
       </div>
       <p class="description">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
-        quibusdam qui dolorem aliquid, consequatur velit, cum repellendus,
-        repudiandae harum neque veritatis quisquam temporibus ut doloremque
-        fugit nam porro pariatur aut.
+        An enthusiastic software engineer currently shaping the future of software developement by desiging smooth user-interfaces that promote user interaction with information and data.
+        While traveling around the world
       </p>
       <p class="link" v-on:click="goto()" v-bind:style="{fontWeight:'bold'}">
-        Checkout out my work!
-        <v-icon color="secondary">mdi-chevron-down</v-icon>
+        SCROLL FOR MORE!
+        <v-icon color="secondary" class="arrow">mdi-chevron-down</v-icon>
       </p>
     </div>
   </div>
@@ -45,6 +43,18 @@ p {
 .link {
   color: #4452FB !important;
   cursor: pointer !important;
+}
+.arrow {
+  animation: MoveUpDown 1.75s linear infinite;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: -2px;
+  }
+  50% {
+    bottom: 5px;
+  }
 }
 </style>
 <script>
