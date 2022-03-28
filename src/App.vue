@@ -5,6 +5,7 @@
 
     <v-main>
       <video-background
+          loop
           src='https://jsoncompare.org/LearningContainer/SampleFiles/Video/MP4/Sample-MP4-Video-File-for-Testing.mp4'
           style="max-height: 600px; height: 100vh;"
           overlay="
