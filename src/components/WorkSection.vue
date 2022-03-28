@@ -16,8 +16,7 @@
         <v-col>
           <ItemWork
             itemTitle="mygameplace.io"
-            itemDescription="
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quae accusantium soluta hic nulla molestias quos ad quasi ipsam, aperiam aut in excepturi, quibusdam minus ipsum similique neque sapiente accusamus!"
+            itemDescription="mygameplace is an digital currency platform where users can purchase any type of their prefered digital cards or gift cards, mygameplace guarantees user's confort through partnerships with popular and secure payment methods."
             isLive
             liveLink="https://mygameplace.io"
           />

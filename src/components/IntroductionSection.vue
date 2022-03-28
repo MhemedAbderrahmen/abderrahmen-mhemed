@@ -22,7 +22,7 @@
 <style scoped>
 .introduction-section {
   width: 100%;
-  background-color: black;
+  /*background-color: black;*/
   padding-top: 15%;
   padding-bottom: 15%;
 }
@@ -33,7 +33,7 @@
 }
 div .title {
   padding-bottom: 1rem;
-  color: "white";
+  color: white;
   font-size: 38px !important;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
 }

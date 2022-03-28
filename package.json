@@ -17,6 +17,7 @@
     "server-static": "^2.0.5",
     "vue": "^2.6.14",
     "vue-mobile-detection": "^2.0.1",
+    "vue-responsive-video-background-player": "^1.2.2",
     "vuetify": "^2.6.0"
   },
   "devDependencies": {

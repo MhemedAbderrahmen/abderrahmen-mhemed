@@ -4,7 +4,14 @@
     <div v-else><NavbarWeb /></div>
 
     <v-main>
+      <video-background
+          src='https://jsoncompare.org/LearningContainer/SampleFiles/Video/MP4/Sample-MP4-Video-File-for-Testing.mp4'
+          style="max-height: 600px; height: 100vh;"
+          overlay="
+linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 20%, rgba(135,135,135,0) 80%, rgba(0,0,0,0.9755252442773985) 100%)"
+      >
       <IntroductionSection />
+    </video-background>
       <WorkSection />
       <SkillsSection />
     </v-main>
@@ -19,6 +26,7 @@ import WorkSection from "./components/WorkSection";
 import NavbarWeb from "./components/nav/NavbarWeb.vue";
 import NavbarMobile from "./components/nav/NavbarMobile.vue";
 import SkillsSection from "./components/skills/SkillsSection.vue";
+import VideoBackground from 'vue-responsive-video-background-player'
 
 export default {
   name: "App",
@@ -29,6 +37,7 @@ export default {
     NavbarWeb,
     NavbarMobile,
     SkillsSection,
+    VideoBackground
   },
   methods: {
     isMobile() {

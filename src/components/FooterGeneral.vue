@@ -1,5 +1,5 @@
 <template>
-  <v-footer fixed padless v-bind:style="{ width: '100%' }">
+  <v-footer fixed padless v-bind:style="{ width: '100%' }" style="background-color:black;">
     <v-card flat tile class="text-center" width="100%" color="primary">
       <v-card-text>
         <v-btn v-for="icon in icons" :key="icon" class="mx-4" icon>
