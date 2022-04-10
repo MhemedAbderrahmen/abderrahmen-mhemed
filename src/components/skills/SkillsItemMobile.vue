@@ -1,34 +1,34 @@
-<template>
-  <div>
-    <div class="title" v-bind:style="{ color: color }">{{ title }}</div>
-    <div class="description">
-      {{ description }}
+  <template>
+    <div>
+      <div class="title" v-bind:style="{ color: color }">{{ title }}</div>
+      <div class="description">
+        {{ description }}
+      </div>
+      <v-row>
+        <v-col>
+          <ul>
+            <li>ReactNative</li>
+            <li>Firebase</li>
+            <li>Unity</li>
+            <li>C#</li>
+          </ul>
+        </v-col>
+        <v-col>
+          <ul>
+            <li>Java</li>
+            <li>Kotlin</li>
+            <li>Dart</li>
+            <li>Flutter</li>
+          </ul>
+        </v-col>
+        <v-col>
+          <ul>
+            <li>Ionic</li>
+          </ul>
+        </v-col>
+      </v-row>
     </div>
-    <v-row>
-      <v-col>
-        <ul>
-          <li>ReactNative</li>
-          <li>Firebase</li>
-          <li>Unity</li>
-          <li>C#</li>
-        </ul>
-      </v-col>
-      <v-col>
-        <ul>
-          <li>Java</li>
-          <li>Kotlin</li>
-          <li>Dart</li>
-          <li>Flutter</li>
-        </ul>
-      </v-col>
-      <v-col>
-        <ul>
-          <li>Ionic</li>
-        </ul>
-      </v-col>
-    </v-row>
-  </div>
-</template>
+  </template>
 
 <script>
 export default {
@@ -52,7 +52,7 @@ li {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
 }
 ul ::marker {
-  color: #1d40fb !important;
+  color: #11CC9E !important;
   font-size: 32px;
 }
 </style>

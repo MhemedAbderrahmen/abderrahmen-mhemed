@@ -73,9 +73,10 @@
             itemDescription="
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quae accusantium soluta hic nulla molestias quos ad quasi ipsam, aperiam aut in excepturi, quibusdam minus ipsum similique neque sapiente accusamus!"
             isLive
-            liveLink="https://mygameplace.gg"
+            liveLink="https://ohmygame.gg"
           />
         </v-col>
+
       </v-row>
       <v-row> <ReviewItem /> </v-row>
     </div>
