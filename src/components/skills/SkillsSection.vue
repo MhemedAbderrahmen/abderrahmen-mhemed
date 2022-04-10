@@ -67,8 +67,9 @@
 .introduction-section {
   width: 100%;
   background-color: black;
-  height: 100%;
-  padding-top: 15%;
+
+  padding-top: 5%;
+  padding-bottom: 15%;
 }
 .center {
   color: white;

@@ -15,7 +15,7 @@ linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 20%, rgba(135,135,13
     </video-background>
       <WorkSection />
       <SkillsSection />
-      <InterestSection/>
+<!--      <InterestSection/>-->
     </v-main>
     <FooterGeneral />
   </v-app>
@@ -29,7 +29,7 @@ import NavbarWeb from "./components/nav/NavbarWeb.vue";
 import NavbarMobile from "./components/nav/NavbarMobile.vue";
 import SkillsSection from "./components/skills/SkillsSection.vue";
 import VideoBackground from 'vue-responsive-video-background-player';
-import InterestSection from "./components/interest/InterestSection.vue";
+// import InterestSection from "./components/interest/InterestSection.vue";
 
 export default {
   name: "App",
@@ -41,7 +41,7 @@ export default {
     NavbarMobile,
     SkillsSection,
     VideoBackground,
-    InterestSection
+    // InterestSection
   },
   methods: {
     isMobile() {
