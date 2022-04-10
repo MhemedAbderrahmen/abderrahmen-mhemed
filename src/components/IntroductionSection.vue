@@ -1,6 +1,9 @@
 
 <template>
-  <div class="introduction-section">
+  <div class="introduction-section"
+       data-aos="zoom-in"
+       data-aos-duration="1500"
+       data-aos-delay="500">
     <div class="center">
       <div class="title" v-bind:style="{ color: 'white' }">
         I'm ready to design, develop and deploy your solutions.

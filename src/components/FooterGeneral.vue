@@ -15,6 +15,7 @@
         {{ new Date().getFullYear() }} —
         <strong v-bind:style="{ color: 'white' }">Porfolio</strong>
       </v-card-text>
+
     </v-card>
   </v-footer>
 </template>

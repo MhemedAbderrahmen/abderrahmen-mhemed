@@ -23,7 +23,7 @@
         </v-col>
         <v-col>
           <v-img
-            src="https://uploads-ssl.webflow.com/5cd3f797ed444018363216ca/5cd480c363a1fef1d169f1f8_burt.png"
+            src="@/assets/mygameplaceio.png"
             width="500px"
           />
         </v-col>
@@ -39,7 +39,7 @@
       >
         <v-col>
           <v-img
-            src="https://uploads-ssl.webflow.com/5cd3f797ed444018363216ca/5cd48172a1024f1833ee86f4_greenride.png"
+            src="@/assets/ohmygameio.png"
             width="500px"
           />
         </v-col>
@@ -63,7 +63,7 @@
       >
         <v-col>
           <v-img
-            src="https://uploads-ssl.webflow.com/5cd3f797ed444018363216ca/5cd48172a1024f1833ee86f4_greenride.png"
+            src="@/assets/ohmygamegg.png"
             width="500px"
           />
         </v-col>
@@ -86,6 +86,7 @@
 .introduction-section {
   width: 100%;
   background-color: black;
+  padding-top:15%;
 }
 .center {
   margin: auto;
