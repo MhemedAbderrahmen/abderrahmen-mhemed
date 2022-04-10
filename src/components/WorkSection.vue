@@ -46,8 +46,7 @@
         <v-col>
           <ItemWork
             itemTitle="ohmygame.io"
-            itemDescription="
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quae accusantium soluta hic nulla molestias quos ad quasi ipsam, aperiam aut in excepturi, quibusdam minus ipsum similique neque sapiente accusamus!"
+            itemDescription="Ohmygame.io is a web platform that contains over 250 HTML games, users have the ability to join this platform by paying a small fee, once subscribed on the platform they have access to those games, with an access to different quests achievements and rewards."
             isLive
             liveLink="https://ohmygame.io"
           />
@@ -71,7 +70,7 @@
           <ItemWork
             itemTitle="ohmygame.gg"
             itemDescription="
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quae accusantium soluta hic nulla molestias quos ad quasi ipsam, aperiam aut in excepturi, quibusdam minus ipsum similique neque sapiente accusamus!"
+Ohmygame.gg is an E-Sports web platform, this web application handles users registrations to different tournaments of multiple games, there is weekly and monthly tournaments that are hosted with thousands of players joining it and competing for diffrent rewards."
             isLive
             liveLink="https://ohmygame.gg"
           />
